@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Campus from './../views/campus';
 
 export default function Header () {
     return (
@@ -24,14 +26,18 @@ export default function Header () {
                                 
                                 <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                     <ul className="navigation clearfix">
-                                        <li><a href="index.html"><span data-hover="Home">Accueil</span></a>
+                                        <li><Link to='/'><span data-hover="Home">Accueil</span></Link>
                                         </li>
-                                        <li className="dropdown"><a href="#">Type d'institution</a>
+                                        <li className="dropdown"><a>Type d'institution</a>
                                             <ul>
-                                                <li><a href="about.html">Campus</a></li>
+                                                <li>
+                                                    <Link to='/campus'>Campus</Link>
+                                                </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li>
+                                            <Link to='/contact'>Contact</Link>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>

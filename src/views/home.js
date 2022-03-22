@@ -125,7 +125,7 @@ class Home extends Component {
                                 <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br /> fugiat nulla pariatur Duis aute irure dolor in reprehenderit in</div>
                             </div>
                             <div className="testimonial-carousel-two owl-carousel owl-theme">
-                            
+                
                                 <div className="testimonial-block-two">
                                     <div className="inner-box">
                                         <div className="border-layer"></div>
