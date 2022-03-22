@@ -2,7 +2,241 @@ import React, {Component} from "react";
 
 class Campus extends Component {
     render() {
-        return true
+        return (
+            <>
+                <section className="goal-section style-two">
+                    <div className="pattern-layer-four" style={{BackgroundImage: "url(images/background/pattern-18.png)"}}></div>
+                    <div className="auto-container">
+                        <div className="row clearfix">
+                            
+                            <div className="images-column col-lg-6 col-md-12 col-sm-12">
+                                <div className="color-layer"></div>
+                                <div className="inner-column">
+                                    <div className="pattern-layer" style={{BackgroundImage: "url(images/background/pattern-4.png)"}}></div>
+                                    <div className="pattern-layer-two" style={{BackgroundImage: "url(images/background/pattern-17.png)"}}></div>
+                                    <div className="image">
+                                        <img src="images/resource/goal-1.jpg" alt="" />
+                                    </div>
+                                    <div className="image-two">
+                                        <img src="images/resource/goal-2.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-column">
+                                    <div className="pattern-layer-three" style={{BackgroundImage: "url(images/background/pattern-13.png)"}}></div>
+                                    <div className="sec-title">
+                                        <div className="title">Achieve Goals</div>
+                                        <h2>Start To Success</h2>
+                                        <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Duis aute irure dolor in</div>
+                                    </div>
+                                    
+                                    <div className="fact-counter">
+                                        <div className="row clearfix">
+
+                                            <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
+                                                <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                    <div className="content">
+                                                        <div className="count-outer count-box">
+                                                            <span className="count-text" data-speed="3000" data-stop="36">0</span>+
+                                                        </div>
+                                                        <h4 className="counter-title">Over 35 Free Courses</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
+                                                <div className="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                                    <div className="content">
+                                                        <div className="count-outer count-box alternate">
+                                                            <span className="count-text" data-speed="5000" data-stop="34">0</span>
+                                                        </div>
+                                                        <h4 className="counter-title">Member State Associations</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
+                                                <div className="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                                    <div className="content">
+                                                        <div className="count-outer count-box">
+                                                            <span className="count-text" data-speed="2000" data-stop="15">0</span>k
+                                                        </div>
+                                                        <h4 className="counter-title">Over 19,000 High Schools</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
+                                                <div className="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+                                                    <div className="content">
+                                                        <div className="count-outer count-box">
+                                                            <span className="count-text" data-speed="3500" data-stop="20">0</span>m
+                                                        </div>
+                                                        <h4 className="counter-title">Over 11 million Students</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+                
+                <section className="professional-section style-two">
+                    <div className="background-layer-one" style={{BackgroundImage: "url(images/background/pattern-5.png)"}}></div>
+                    <div className="auto-container">
+                        <div className="row clearfix">
+                            <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-column">
+                                    <div className="pattern-layer-three" style={{BackgroundImage: "url(images/background/pattern-16.png)"}}></div>
+                                    <div className="sec-title">
+                                        <div className="title">Learn anything</div>
+                                        <h2>Take online courses Earn <br/> professional</h2>
+                                    </div>
+                                    <div className="bold-text">Position yourself for success with a variety of collegeclassNamees including general education courses</div>
+                                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <div className="btn-box">
+                                        <a href="course-detail.html" className="theme-btn btn-style-four"><span className="txt">Short courses</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="images-column col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-column">
+                                    <div className="pattern-layer" style={{BackgroundImage: "url(images/background/pattern-3.png)"}}></div>
+                                    <div className="pattern-layer-two" style={{BackgroundImage: "url(images/background/pattern-4.png)"}}></div>
+                                    <div className="color-layer"></div>
+                                    <div className="color-layer-two"></div>
+                                    <div className="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <img src="images/resource/professional.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                
+                <section className="clients-section">
+                    <div className="auto-container">
+                        <div className="sec-title centered">
+                            <h2>Nors partenaires</h2>
+                            <div className="text">These leading universities are currently offering online degree <br/> courses on FutureLearn:</div>
+                        </div>
+                        
+                        <div className="sponsors-outer">
+                            <ul className="sponsors-carousel owl-carousel owl-theme">
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/1.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/2.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/3.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/4.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/5.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/1.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/2.png" alt=""/></a></figure></li>
+                                <li className="slide-item"><figure className="image-box"><a href="#"><img src="images/clients/3.png" alt=""/></a></figure></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section className="contact-section">
+                    <div className="pattern-layer" style={{BackgroundImage: "url(images/background/pattern-19.png)"}}></div>
+                    <div className="pattern-layer-two" style={{BackgroundImage: "url(images/background/pattern-20.png)"}}></div>
+                    <div className="icon-layer-two" style={{BackgroundImage: "url(images/icons/icon-2.png)"}}></div>
+                    <div className="icon-layer-three" style={{BackgroundImage: "url(images/icons/icon-2.png)"}}></div>
+                    <div className="auto-container">
+                        <div className="row clearfix">
+                            
+                            <div className="info-column col-lg-4 col-md-12 col-sm-12">
+                                <div className="inner-column">
+                                    <div className="icon-layer" style={{BackgroundImage: "url(images/icons/icon-2.png)"}}></div>
+                                    <div className="image">
+                                        <img src="images/resource/contact.png" alt="" />
+                                    </div>
+                                    <h5>S'inscrire</h5>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+                                    <ul className="contact-list">
+                                        <li>
+                                            <strong>Phone:</strong>
+                                            <a href="tel:+88-01682648101">+88 01682648101</a>
+                                        </li>
+                                        <li>
+                                            <strong>Email:</strong>
+                                            <a href="mailo:hello@lebari.com"><span className="__cf_email__" data-cfemail="fb939e979794bb979e999a8992d5989496">[email&#160;protected]</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div className="form-column col-lg-8 col-md-12 col-sm-12">
+                                <div className="inner-column">
+                                    <div className="color-layer"></div>
+                                    <div className="sec-title">
+                                        <h2> Visit us <br/> for Free Resources</h2>
+                                        <div className="text">These leading universities are currently offering online degree courses on FutureLearn:</div>
+                                    </div>
+                                    
+                                    <div className="default-form">
+                                        <form>
+                                            <div className="row clearfix">
+                                            
+                                                <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                                    <input type="text" name="username" placeholder="First Name" required />
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                                    <input type="text" name="lastname" placeholder="Last Name" required />
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <input type="email" name="email" placeholder="Email" required />
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <select name="country" className="custom-select-box">
+                                                        <option>When you want to start courses</option>
+                                                        <option>courses 01</option>
+                                                        <option>courses 02</option>
+                                                        <option>courses 03</option>
+                                                        <option>courses 04</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                                    <input type="text" name="date" placeholder="Date" required />
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                                    <input type="text" name="time" placeholder="Time" required />
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <textarea placeholder="Type you comment here"></textarea>
+                                                </div>
+                                                
+                                                <div className="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <button type="submit" className="theme-btn btn-style-one"><span className="txt">Submit</span></button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </>
+        )
     }
 }
 
