@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Campus from './../views/campus';
 
 export default function Header () {
     return (
-            <header className="main-header header-style-two">
+        <header className="main-header header-style-two">
                 
                 <div className="header-upper">
                     <div className="outer-container clearfix">
@@ -75,6 +74,6 @@ export default function Header () {
                     </nav>
                 </div>
             
-            </header>
+        </header>
     )
 }
