@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
 
@@ -96,13 +97,13 @@ class Home extends Component {
                                 <div className="inner-column">
                                     <div className="pattern-layer-three" style={{BackgroundImage:"url(images/background/pattern-16.png)"}}></div>
                                     <div className="sec-title">
-                                        <div className="title">A propos</div>
+                                        <div className="title">In Short</div>
                                         <h2>Take online courses Earn <br/> professional</h2>
                                     </div>
                                     <div className="bold-text">Position yourself for success with a variety of collegeclassNamees including general education courses</div>
                                     <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     <div className="btn-box">
-                                        <a href="course-detail.html" className="theme-btn btn-style-four"><span className="txt">Short courses</span></a>
+                                        <Link to={'about'} className="theme-btn btn-style-four"><span className="txt">More Details</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -112,174 +113,121 @@ class Home extends Component {
                     </div>
                 </section>
                 
-                <section className="testimonial-section-two style-two">
-                    <div className="circle-one paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="0.20" data-paroller-type="foreground" data-paroller-direction="horizontal"></div>
-                    <div className="circle-two paroller" data-paroller-factor="0.20" data-paroller-factor-lg="-0.20" data-paroller-type="foreground" data-paroller-direction="horizontal"></div>
-                    <div className="pattern-layer-two" style={{BackgroundImage:"url(images/background/pattern-10.png)"}}></div>
+                <section className="feature-section-two">
+                    <div className="background-layer-one" style={{BackgroundImage: "url(images/background/pattern-2.png)"}}></div>
+                    <div className="circle-one"></div>
+                    <div className="circle-two"></div>
                     <div className="auto-container">
-                        <div className="inner-container">
-                            <div className="pattern-layer" style={{BackgroundImage:"url(images/background/pattern-9.png)"}}></div>
-                            <div className="sec-title centered">
-                                <div className="title">News</div>
-                                <h2>The news</h2>
-                                <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br /> fugiat nulla pariatur Duis aute irure dolor in reprehenderit in</div>
-                            </div>
-                            <div className="testimonial-carousel-two owl-carousel owl-theme">
-                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-1.jpg" alt="" />
-                                                </div>
-                                                <h6>Mahfuz Riad</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-2.jpg" alt="" />
-                                                </div>
-                                                <h6>Shopnil mahadi</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-3.jpg" alt="" />
-                                                </div>
-                                                <h6>Alamin Sa</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-1.jpg" alt="" />
-                                                </div>
-                                                <h6>Mahfuz Riad</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-2.jpg" alt="" />
-                                                </div>
-                                                <h6>Shopnil mahadi</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-3.jpg" alt="" />
-                                                </div>
-                                                <h6>Alamin Sa</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-1.jpg" alt="" />
-                                                </div>
-                                                <h6>Mahfuz Riad</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-2.jpg" alt="" />
-                                                </div>
-                                                <h6>Shopnil mahadi</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
-                                
-                                <div className="testimonial-block-two">
-                                    <div className="inner-box">
-                                        <div className="border-layer"></div>
-                                        <div className="text">From exhibitions and dinners, to celebrations and conferences, the University of Bath is a great place to hold any event.</div>
-                                        <div className="author-info">
-                                            <div className="info-inner">
-                                                <div className="author-image">
-                                                    <img src="images/resource/author-3.jpg" alt="" />
-                                                </div>
-                                                <h6>Alamin Sa</h6>
-                                                <div className="designation">Online Teacher</div>
-                                            </div>
-                                        </div>
-                                        <div className="quote-icon flaticon-quote-2"></div>
-                                    </div>
-                                </div>
+                        <div className="sec-title centered">
+                            <h2>Nos tarification</h2>
+                            <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <br /> nulla pariatur Duis aute irure dolor in reprehenderit in</div>
+                        </div>
+                        <div className="row clearfix">
                             
+                            <div className="course-block style-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-4.jpg" alt="" /></a>
+                                        <div className="tag">ENROL NOW</div>
+                                    </div>
+                                    <div className="lower-content">
+                                        <h4><a href="course-detail.html">Growth Mindsets for Teachers and Learners</a></h4>
+                                        <div className="uni-name">University of Roehampton</div>
+                                        <div className="rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <strong>4.9</strong>
+                                            <i>(70 Review)</i>
+                                        </div>
+                                        <div className="clearfix">
+                                            <div className="price">$12 <span>$100.99</span></div>
+                                            <div className="hovers">11.5 total hours . All Levels</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
+                            <div className="course-block style-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-5.jpg" alt="" /></a>
+                                        <div className="tag">ENROL NOW</div>
+                                    </div>
+                                    <div className="lower-content">
+                                        <h4><a href="course-detail.html">Confidence and Develop Confident Bo</a></h4>
+                                        <div className="uni-name">Development courses</div>
+                                        <div className="rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <strong>4.9</strong>
+                                            <i>(70 Review)</i>
+                                        </div>
+                                        <div className="clearfix">
+                                            <div className="price">$12 <span>$100.99</span></div>
+                                            <div className="hovers">11.5 total hours . All Levels</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="course-block style-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInRight" data-wow-delay="150ms" data-wow-duration="1500ms">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-6.jpg" alt="" /></a>
+                                        <div className="tag">ENROL NOW</div>
+                                    </div>
+                                    <div className="lower-content">
+                                        <h4><a href="course-detail.html">Introduction to Probability and Statistics</a></h4>
+                                        <div className="uni-name">University of Roehampton</div>
+                                        <div className="rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <strong>4.9</strong>
+                                            <i>(70 Review)</i>
+                                        </div>
+                                        <div className="clearfix">
+                                            <div className="price">$12 <span>$100.99</span></div>
+                                            <div className="hovers">11.5 total hours . All Levels</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="course-block style-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-7.jpg" alt="" /></a>
+                                        <div className="tag">ENROL NOW</div>
+                                    </div>
+                                    <div className="lower-content">
+                                        <h4><a href="course-detail.html">UX & Web Design Master Course</a></h4>
+                                        <div className="uni-name">UX & Web Design</div>
+                                        <div className="rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <strong>4.9</strong>
+                                            <i>(70 Review)</i>
+                                        </div>
+                                        <div className="clearfix">
+                                            <div className="price">$12 <span>$100.99</span></div>
+                                            <div className="hovers">11.5 total hours . All Levels</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </section>
