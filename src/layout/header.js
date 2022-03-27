@@ -9,7 +9,7 @@ export default function Header () {
                     <div className="outer-container clearfix">
                         
                         <div className="pull-left logo-box">
-                            <div className="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""/></a></div>
+                            <div className="logo"><Link to='/'><img src="images/logo-2.png" alt="" title=""/></Link></div>
                         </div>
                         
                         <div className="nav-outer clearfix">
@@ -25,17 +25,28 @@ export default function Header () {
                                 
                                 <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                     <ul className="navigation clearfix">
-                                        <li><Link to='/'><span data-hover="Home">Accueil</span></Link>
-                                        </li>
-                                        <li className="dropdown"><a>Type d'institution</a>
-                                            <ul>
-                                                <li>
-                                                    <Link to='/campus'>Campus</Link>
-                                                </li>
-                                            </ul>
+                                        <li className="dropdown"><Link to='/'><span data-hover="Home">Home</span></Link>
                                         </li>
                                         <li>
-                                            <Link to='/contact'>Contact</Link>
+                                            <Link to='/about'>About</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/campus'>Campus</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/calender'>Calender</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/fees'>Fees</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/notice'>Notice</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/event'>Event</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/library'>Library</Link>
                                         </li>
                                     </ul>
                                 </div>
