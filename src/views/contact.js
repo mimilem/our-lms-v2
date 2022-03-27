@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from 'react-router-dom';
 
 class Contact extends Component {
     render() {
@@ -44,12 +45,9 @@ class Contact extends Component {
                     <div className="pattern-layer-two" style={{BackgroundImage: "url(images/icons/icon-6.png)"}}></div>
                     <div className="pattern-layer-three" style={{BackgroundImage: "url(images/icons/icon-4.png)"}}></div>
                     <div className="auto-container">
-                        <ul className="page-breadcrumb">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Contact</li>
-                        </ul>
+                        
                         <div className="content-box">
-                            <h2>Nous contacter</h2>
+                            <h2>About Us</h2>
                             <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Duis aute irure dolor in reprehenderit in </div>
                         </div>
                     </div>
