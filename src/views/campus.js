@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from 'react-router-dom';
 
 class Campus extends Component {
     render() {
@@ -154,6 +155,103 @@ class Campus extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section className="courses-page-section style-two">
+                    <div className="pattern-layer" style={{BackgroundImage: "url(images/background/pattern-22.png)" }}></div>
+                    <div className="pattern-layer-two" style={{BackgroundImage: "url(images/background/pattern-6.png)" }}></div>
+                    <div className="pattern-layer-three" style={{BackgroundImage: "url(images/background/pattern-19.png)" }}></div>
+                    <div className="pattern-layer-four" style={{BackgroundImage: "url(images/background/pattern-23.png)" }}></div>
+                    <div className="auto-container">
+                        <div className="sec-title centered">
+                            <h2>Departements</h2>
+                        </div>
+                        <div className="row clearfix">
+                            
+                            <div className="course-block-three col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-30.jpg" alt="" /></a>
+                                    </div>
+                                    <div className="content">
+                                        <h4><a href="course-detail.html">Departement 1</a></h4>
+                                        <div className="uni-name">University of Roehampton</div>
+                                    </div>
+                                    <div className="overlay-content-box">
+                                        <h4>Departement 1</h4>
+                                        <div className="uni-name">Development courses</div>
+                                        <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
+                                        <ul className="lists">
+                                            <li>The majority have suffered alteration</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                        </ul>
+                                        <div className="btns-box">
+                                            <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="course-block-four col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-30.jpg" alt="" /></a>
+                                    </div>
+                                    <div className="content">
+                                        <h4><a href="course-detail.html">Departement 2</a></h4>
+                                        <div className="uni-name">University of Roehampton</div>
+                                    </div>
+                                    <div className="overlay-content-box">
+                                        <h4>Departement 2</h4>
+                                        <div className="uni-name">Development courses</div>
+                                        <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
+                                        <ul className="lists">
+                                            <li>The majority have suffered alteration</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                        </ul>
+                                        <div className="btns-box">
+                                        <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="course-block-three col-lg-6 col-md-12 col-sm-12">
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <a href="course-detail.html"><img src="images/resource/course-30.jpg" alt="" /></a>
+                                    </div>
+                                    <div className="content">
+                                        <h4><a href="course-detail.html">Departement 3</a></h4>
+                                        <div className="uni-name">University of Roehampton</div>
+                                    </div>
+                                    <div className="overlay-content-box">
+                                        <h4>Departement 3</h4>
+                                        <div className="uni-name">Development courses</div>
+                                        <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
+                                        <ul className="lists">
+                                            <li>The majority have suffered alteration</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
+                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                        </ul>
+                                        <div className="btns-box">
+                                            <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="styled-pagination text-center">
+                            <ul className="clearfix">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#">02</a></li>
+                                <li className="active"><a href="#">03</a></li>
+                                <li className="next"><a href="#"><span className="fa fa-angle-double-right"></span> </a></li>
+                            </ul>
                         </div>
                         
                     </div>
