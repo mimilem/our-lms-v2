@@ -30,31 +30,64 @@ export default function Header () {
                                         <li>
                                             <Link to='/about'>About</Link>
                                         </li>
-                                        <li>
-                                            <Link to='/campus'>Campus</Link>
+                                        <li className="dropdown has-mega-menu"><a href="#"><span>Campuses <i className="fa fa-arrow-down"></i></span></a>
+                                            <div className="mega-menu">
+                                                <div className="upper-box">
+                                                    <div className="page-links-box">
+                                                        <Link to='/campus' className="link"><span className="icon flaticon-bullhorn"></span>Marketing</Link>
+                                                        <Link to='/campus' className="link"><span className="icon flaticon-cyclist"></span>Lifestyle</Link>
+                                                        <Link to='/campus' className="link"><span className="icon flaticon-bar-chart"></span>Business</Link>
+                                                        <Link to='/campus' className="link"><span className="icon flaticon-software"></span>Software</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li>
-                                            <Link to='/calender'>Calender</Link>
+                                            <Link to='/shortcours'>Short Courses</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/calender'>Calendar</Link>
                                         </li>
                                         <li>
                                             <Link to='/fees'>Fees</Link>
                                         </li>
                                         <li>
-                                            <Link to='/notice'>Notice</Link>
+                                            <Link to='/notice'>Notices</Link>
                                         </li>
                                         <li>
-                                            <Link to='/event'>Event</Link>
+                                            <Link to='/event'>Events</Link>
                                         </li>
                                         <li>
-                                            <Link to='/library'>Library</Link>
+                                            <Link to='/library'>Libraries</Link>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
-                            
-                            <div className="outer-box clearfix">
-                                <div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-4"></span></div>
-                                    
+                            <div className="outer-box clearfix">   
+                                <div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-4 mx-2"></span></div>
+                                <div className="cart-box">
+                                    <div className="dropdown">
+                                        <button className="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flaticon-shopping-bag-1"></span><span className="total-cart">2</span></button>
+                                        <div className="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
+
+                                            <div className="cart-product">
+                                                <div className="inner">
+                                                    <div className="cross-icon"><span className="icon fa fa-remove"></span></div>
+                                                    <div className="image"><img src="images/resource/post-thumb-1.jpg" alt="" /></div>
+                                                    <h3><a href="shop-single.html">Product 01</a></h3>
+                                                    <div className="quantity-text">Quantity 1</div>
+                                                    <div className="price">$99.00</div>
+                                                </div>
+                                            </div>
+                                            <div className="cart-total">Sub Total: <span>$198</span></div>
+                                            <ul className="btns-boxed">
+                                                <li><a href="shoping-cart.html">View Cart</a></li>
+                                                <li><a href="checkout.html">CheckOut</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
                         
