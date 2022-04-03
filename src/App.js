@@ -11,6 +11,9 @@ import Notice from './views/notice';
 import Fees from './views/fees';
 import Calender from './views/calender';
 import Library from './views/library';
+import ShortCours from './views/shortcourses';
+import Details from './views/detailscours';
+import Cours from './views/cours';
 
 
 class App extends Component {
@@ -22,6 +25,9 @@ class App extends Component {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/campus' element={<Campus />} />
+          <Route path='/shortcours' element={<ShortCours />} />
+          <Route path='/details' element={<Details />} />
+          <Route path='/cours' element={<Cours />} />
           <Route path='/about' element={<Contact />} />
           <Route path='/event' element={<Event />} />
           <Route path='/notice' element={<Notice />} />
