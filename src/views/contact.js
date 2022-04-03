@@ -40,18 +40,6 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <section className="contact-banner-section">
-                    <div className="pattern-layer-one" style={{BackgroundImage: "url(images/icons/icon-5.png)"}}></div>
-                    <div className="pattern-layer-two" style={{BackgroundImage: "url(images/icons/icon-6.png)"}}></div>
-                    <div className="pattern-layer-three" style={{BackgroundImage: "url(images/icons/icon-4.png)"}}></div>
-                    <div className="auto-container">
-                        
-                        <div className="content-box">
-                            <h2>About Us</h2>
-                            <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Duis aute irure dolor in reprehenderit in </div>
-                        </div>
-                    </div>
-                </section>
                 
                 <section className="contact-page-section">
                     <div className="pattern-layer-three" style={{BackgroundImage: "url(images/icons/icon-8.png)"}}></div>
@@ -60,7 +48,7 @@ class Contact extends Component {
                             
                             <div className="info-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column">
-                                    <div className="title">GET IN TOUCH</div>
+                                    <div className="title">ABOUT US</div>
                                     <h2>Visit one of our agency locations <br/> or contact us today</h2>
                                     <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </div>
                                     
