@@ -52,9 +52,6 @@ export default function Header () {
                                             <Link to='/fees'>Fees</Link>
                                         </li>
                                         <li>
-                                            <Link to='/notice'>Notices</Link>
-                                        </li>
-                                        <li>
                                             <Link to='/event'>Events</Link>
                                         </li>
                                         <li>
@@ -81,8 +78,7 @@ export default function Header () {
                                             </div>
                                             <div className="cart-total">Sub Total: <span>$198</span></div>
                                             <ul className="btns-boxed">
-                                                <li><a href="shoping-cart.html">View Cart</a></li>
-                                                <li><a href="checkout.html">CheckOut</a></li>
+                                                <li><Link to='/notice'>View All</Link></li>
                                             </ul>
 
                                         </div>
