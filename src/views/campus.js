@@ -185,13 +185,10 @@ class Campus extends Component {
                                         <div className="uni-name">Development courses</div>
                                         <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
                                         <ul className="lists">
-                                            <li>The majority have suffered alteration</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 1</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 2</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 3</Link></li>
                                         </ul>
-                                        <div className="btns-box">
-                                            <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -209,13 +206,10 @@ class Campus extends Component {
                                         <div className="uni-name">Development courses</div>
                                         <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
                                         <ul className="lists">
-                                            <li>The majority have suffered alteration</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                        <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 1</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 2</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 3</Link></li>
                                         </ul>
-                                        <div className="btns-box">
-                                        <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -233,13 +227,10 @@ class Campus extends Component {
                                         <div className="uni-name">Development courses</div>
                                         <div className="text">There are many variations of Lorem Ipsum available, but the majority have suffered.</div>
                                         <ul className="lists">
-                                            <li>The majority have suffered alteration</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et commodo ut,</li>
-                                            <li>The majority have suffered alteration in somePhasellus enim magna, varius et</li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 1</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 2</Link></li>
+                                            <li><Link to={'/details'} className="theme-btn enrol-btn">Promotion 3</Link></li>
                                         </ul>
-                                        <div className="btns-box">
-                                            <Link to={'/details'} className="theme-btn enrol-btn">Courses</Link>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
